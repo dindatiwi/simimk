@@ -1,0 +1,159 @@
+*{font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.brand {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+
+.navbar{
+    padding-top: 10px;
+}
+
+.klik{
+  color: black;
+}
+.tengah{
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.satu {
+  max-width: 640px;
+ font-size: 18px;
+}
+
+ul.ks-cboxtags {
+  list-style: none;
+  padding: 20px;
+}
+ul.ks-cboxtags li{
+display: inline;
+}
+ul.ks-cboxtags li label{
+  display: inline-block;
+  background-color: rgba(255, 255, 255, .9);
+  border: 2px solid rgba(139, 139, 139, .3);
+  color: #adadad;
+  border-radius: 25px;
+  white-space: nowrap;
+  margin: 3px 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: all .2s;
+}
+
+ul.ks-cboxtags li label {
+  padding: 8px 12px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+  border: 2px solid #1bdbf8;
+  background-color: #12bbd4;
+  color: #fff;
+  transition: all .2s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+display: absolute;
+}
+ul.ks-cboxtags li input[type="checkbox"] {
+position: absolute;
+opacity: 0;
+}
+ul.ks-cboxtags li input[type="checkbox"]:focus + label {
+border: 2px solid #e9a1ff;
+}
+
+.tebel{
+  font-size: 60px;
+}
+
+.kelas{
+  margin-top: 350px;
+}
+
+.paragrap{
+  font-size: x-large;
+}
+
+.kecil{
+  font-size: 60px;
+}
+
+
+
+ul#pilihbawah li {
+  display:inline;
+ text-decoration: none;
+ margin-left: 20px;
+}
+ul#pilihbawah li a{
+ text-decoration: none;
+ color: white;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+.icon-bar a:hover {
+  color: white;
+  background-color: black;
+  }
+.icon-bar a:active {
+color: gray;
+}
+
+.baca p{
+  font-size: 20px;
+}
+
+h4{
+  font-weight: bold;
+}
+
+
+
+/* Style the social media icons with color, if you want */
+@media only screen and (max-width: 600px) {
+  .paragrap{
+    font-size: 20px;
+  }
+
+  .kiri{
+    margin-left: 80px;
+  }
+  .kecil{
+    font-size: 30px;
+  }
+  ul#pilihbawah li {
+    display:inline;
+   text-decoration: none;
+   margin-left: 0px;
+  }
+  .baca p{
+    font-size: 17px;
+  }
+}
